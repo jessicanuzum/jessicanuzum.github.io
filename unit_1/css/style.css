@@ -2,6 +2,29 @@ body{
 	background-color: aqua
 }
 
-h1,p {
+h1{
+	font-family: Arial, sans-serif;
+	color: orange;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2
+{
+	font-family: Arial, sans-serif;
+	color: grey
+	font-size: 28px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: grey;
+
+}
+
+nav{
+	text-align: right;
 	color: orange;
 }

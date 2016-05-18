@@ -1,0 +1,55 @@
+body{
+	background-color: #E6E7E8
+}
+
+h1{
+	font-family: Arial, sans-serif;
+	color: rgb(131,158,181);
+	text-align: center;
+	font-size: 52px;
+	text-transform: uppercase;
+}
+
+h2
+{
+	font-family: Arial, sans-serif;
+	color: rgb(131,158,181);
+	font-size: 28px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h3{
+	color:rgb(131,158,181);
+	font-family:Arial, sans-serif;
+	text-align:center;
+	font-size:30px;
+	text-transform: uppercase;
+}
+
+img{
+
+}
+
+li{
+	font-family: Arial, sans-serif;
+	color: #58595B;
+
+}
+
+p {
+	font-family: Arial, sans-serif;
+	color: #58595B;
+
+}
+
+#slogan {
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+}
+
+nav{
+	text-align: right;
+	color: orange;
+}
