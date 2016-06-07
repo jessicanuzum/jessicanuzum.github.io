@@ -28,11 +28,12 @@ h1{
 	color: #FFFFFF;
 	font-size: 3.2em;
 	text-align: center;
-	margin-top:4em;
+	margin-top:3em;
 	margin-left: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: .25em;
+	padding: .5em;
 }
 
 h4{
@@ -48,30 +49,39 @@ a {
 nav a{ 
 	color: #FFFFFF;
 	font-size: 1em;
-	margin-right: 10px;
+	margin: 10px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	padding-right: 1em;
 
+}
+
+nav a:hover{
+	color:  #5B96AD;
+	border-bottom: 2px solid;
+	/*display: inline-block*/;
 }
 
 p{
 	font-family: 'Lora',serif;
 	font-size: 1em;
-	margin-left: 20px;
+	margin: 2em auto;
 	line-height: 1.5em;
 	text-align: center;
+	width: 60em;
 }
 img{
 	width: 100%;
 }
 
 main{
-	padding: 20px;
+	padding: 10px;
 }
 
 ul{
 	padding-left: 20px;
+	text-align: center;
+	list-style-position: inside;
+	list-style: none;
 }
 
 h3{
@@ -108,21 +118,51 @@ footer{
 	margin: 2em auto;
 }
 
+.blog{
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	background-color: #5B96AD;
+	padding: 30px;
+	margin: 3em auto;
+	width: 60em;
+}
+
 #slogan{ 
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 14em;
+	margin-top: 4em;
 	font-weight: 400;
 }
 
 #lander{
-	background:url(../images/newyork.jpg) no-repeat center center scroll;
+	background: url(../images/newyork.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:500px;
+	height:525px;
 	padding:20px 0;
+}
+
+#button{
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	border: 2px solid white;
+	padding: 1em 1.5em;
+ 	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: .20em;
+	text-align: center;
+/*	display: inline-block;*/
+	float: center;
+}
+
+#button:hover{
+	color: #000;
+	background: #FFF;
 }
