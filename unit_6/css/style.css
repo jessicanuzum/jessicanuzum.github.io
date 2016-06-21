@@ -24,8 +24,6 @@ header {
 }
 
 section{
-	/*background: #222;*/
-	overflow: auto;
 	text-align: center;
 }
 
@@ -52,6 +50,7 @@ a {
 	text-decoration: none;
 }
 
+
 nav{
 	font-size: 1em;
 	float:right;
@@ -66,15 +65,10 @@ nav a:link{
 	display: inline-block;
 }
 
-/*nav a:visited{
-
-}*/
 
 nav a:hover{
 	color:  #5B96AD;
 	border-bottom: 2px solid;
-/*	display: inline-block;*/
-	
 }
 
 nav a:active{
@@ -87,7 +81,7 @@ hr + p{
 	margin: 2em auto;
 	line-height: 1.5em;
 	text-align: center;
-	width: 60em;
+	width: 75%;
 }
 
 h4+ hr{
@@ -112,36 +106,13 @@ main{
 	padding: 10px;
 }
 
-ul{
-	padding-left: 20px;
-	text-align: center;
-	list-style-position: inside;
-	list-style: none;
-}
-
-li{
-	font-weight: 400;
-	width: 12%;
-	height: 2em;
-	outline: 2px solid  #5B96AD;
-	text-align: center;
-	line-height: 2em;
-	margin: 20px;
-	margin-bottom: 20px;
-	float:left;
-}
-
-li:hover{
-	color: #FFF;
-	background: #5B96AD;
-
-}
 h3{
 	padding: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 3px;
+	font-size: 1.35em;
 }
 
 h3:hover {
@@ -154,7 +125,7 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size:34px;
+	font-size:2.2em;
 	letter-spacing: 10px;
 }
 
@@ -162,7 +133,7 @@ hr{
 	border: none;
 	height: 2px;
 	background-color: #E5E4E0;
-	width: 1200px;
+	width: 90%;
 	margin: 2em auto;
 
 }
@@ -170,17 +141,36 @@ footer{
 	font-family:'Lora',serif;
 	background-color: #333338;
 	text-align: center;
-	font-size: 14px;
+	font-size: .8em;
 	color: #666;
 	padding:20px;
 }
 
+input{
+	border: none;
+	font-size: 15px;
+	outline: none;
+	width: 95%;
+}
+
+#form{
+	width: 50%;
+	padding: 1em;
+	line-height: normal:;
+	outline: none;
+	display: inline-block;
+	text-align: start;
+	background-color: white;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
 
 #footerlink a{
 	font-family: 'Poppins',sans-serif;
 	display:inline-block;
 	outline: none;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	color:#FFF;
 	text-align: center;
@@ -188,14 +178,14 @@ footer{
 
 }
 
+
 .cities {
 	width: 20%;
 	height: 600px;
-	margin: 25px;
+	margin: 1%;
 	padding: 20px;
-	/*float: left;*/
-	text-align: center;
-	font-size: 15px;
+	text-align:left;
+	font-size: 16px;
 	line-height: 1.5em;
 	display: inline-block;
 	vertical-align: top;
@@ -210,14 +200,14 @@ footer{
 
 }
 
-.blog{
+.subscribe{
 	color: #FFF;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	background-color: #5B96AD;
 	padding: 30px;
 	margin: 3em auto;
-	width: 60em;
+	width: 70%;
 }
 
 #slogan{ 
@@ -246,15 +236,13 @@ footer{
 	font-weight: 400;
 	border: 2px solid white;
 	padding: 1em 1.5em;
- 	/*margin: 100 auto;*/
 	text-transform: uppercase;
 	letter-spacing: .20em;
-/*	display: inline-block;
-	float: center;*/
 }
 
 .button{
 	text-align: center;
+	margin: 20px;
 }
 
 #button:hover{
@@ -272,3 +260,65 @@ footer{
 }
 
 
+@media only screen and(min-width: 1800px){
+	body{
+		font-size:20px;
+	}
+	#mobile{
+		display: none;
+	}
+}
+@media only screen and (max-width:1680px){
+	#mobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1024px ){
+	#mobile{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px ){
+	nav a{
+		float:none;
+		text-align: center;
+		display: none;
+}
+	#mobile{
+	display: block;
+	align: right;
+}
+	h1{
+		font-size: 2.5em;
+	}
+	.cities{
+	display:inline;	
+	}
+}
+
+@media only screen and (max-width: 560px ){
+
+	nav a{
+		float:none;
+		width:auto;
+		display:none;
+	}
+	p{
+	display: none;
+	}
+	.cities{
+	display:inline;	
+	}
+	h1{
+		font-size: 2em;
+	}
+	#mobile{
+	display: block;
+	align: right;
+}
+	nav:hover a {
+		display: block;
+	}
+}
