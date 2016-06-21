@@ -262,6 +262,18 @@ input{
 }
 
 @media only screen and (max-width: 560px ){
+<<<<<<< Updated upstream
+=======
+
+	nav a{
+		float:none;
+		width:auto;
+		display:none;
+	}
+	/*p{
+	display: none;
+	}*/
+>>>>>>> Stashed changes
 	h1{
 		font-size: 2em;
 	}
