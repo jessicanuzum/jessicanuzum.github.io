@@ -52,7 +52,6 @@ nav{
 }
 nav a{ 
 	color: #FFFFFF;
-	font-size: 1em;
 	padding: 0.5em 0em 0em 0em;
 	text-transform: uppercase;
 	letter-spacing: .15em;
@@ -137,9 +136,21 @@ footer{
 
 input{
 	border: none;
-	font-size: 15px;
+	font-size: .8em;
 	outline: none;
 	width: 95%;
+}
+
+
+label{
+	color: #FFFFFF;
+	font-size: 1.15em;
+	padding: 0.5em 0em 0em 0em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .15em;
+	display: none;
+	margin: .75em;
 }
 
 #form{
@@ -151,7 +162,7 @@ input{
 	text-align: start;
 	background-color: white;
 	font-family: 'Lora', serif;
-	font-size: 17px;
+	font-size: 1em;
 	margin: 15px 15px;
 }
 
@@ -242,10 +253,14 @@ section#cities{
 	font-size: 0;
 }
 
+#toggle{
+	display: none;
+}
+
 
 @media only screen and (min-width: 1921px){
 	body{
-		font-size:20px;
+		font-size:1.5em;
 	}
 	#mobile{
 		display: none;
@@ -295,10 +310,8 @@ nav a:hover{
 
 @media only screen and (max-width: 560px ){
 	nav a{
-		float:none;
-		width:auto;
+
 		display:none;
-		padding: 1em;
 	}
 	h1{
 		font-size: 2em;
@@ -306,9 +319,16 @@ nav a:hover{
 	}
 	.subscribe{
 		width: 90%;
-	}
+	}/*
 		#mobile{
 		display: block;
 		float: right;
+	}*/
+		label{
+		display: block;
+	}
+
+	#toggle:checked + nav a{
+		display: block;
 	}
 }
