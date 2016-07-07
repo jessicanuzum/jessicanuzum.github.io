@@ -19,17 +19,29 @@
             	<input type="checkbox" id="toggle">
 				<nav>
 					<!-- <a href="#" id=mobile>&#9776;</a> -->
-					<a href="#">home</a>
-					<a href="#">about</a>
-					<a href="#">blog</a>
-					<a href="#">travel</a>
-					<a href="#">contact</a>
+					<a href="index.html">home</a>
+					<a href="about.html">about</a>
+					<a href="blog.html">blog</a>
+					<div class="dropdown">
+					<a href="wheretonext.html" button class="dropbtn"> Travel </button>
+					<div class="dropdown-content">
+					    <a href="#">England</a>
+					    <a href="#">France</a>
+					    <a href="#">Switzerland</a>
+					    <a href="#">Austria</a>
+					    <a href="#">USA</a>
+					    <a href="#">Australia</a>
+					  </div>
+					</div>
+
+					<a href="#subscribe">subscribe</a>
 				</nav>
 				
+
 				<h1>Where To Next?</h1>
 
 				<div class=button>	
-					<a href id="button"="#">click here</a>
+					<a href="wheretonext.html" id="button"="#">click here</a>
 				</div>		
 
 			</header>
@@ -67,12 +79,12 @@
 		<section>
 			<div class="latest">
 				<h2>latest adventure</h2>
-				<p> Our latest adventure was to Tropical North Queensland. Where we snorkeled the Great Barrier Reef, explored the Daintree Rainforest and soaked up the rays on Fitzroy Island. We drive from Townsville to Cairns and then up to Port Douglas and as far up to Cape Tribulation. <a href="#"> Read more...</a></p>
+				<p> Our latest adventure was to Tropical North Queensland. Where we snorkeled the Great Barrier Reef, explored the Daintree Rainforest and soaked up the rays on Fitzroy Island. We drive from Townsville to Cairns and then up to Port Douglas and as far up to Cape Tribulation. <a href="blog.html"> Read more...</a></p>
 				<img src="images/tropicalnq.jpg"alt="tropicalnq" title="tropicalnq">
 			</div>	
 		</section>	
 
-		<section class="subscribe">
+		<section id="subscribe">
 			<h2>Subscribe</h2>
 			<p>Sign up with your email address below to keep updated with Where To Next news, updates, travel tips and inspiration.</p>
 			
@@ -81,22 +93,22 @@
 			</form>
 
 			<div class=button>	
-					<a href id="button"="#">sign up</a>
+					<a href ="signup" id="button">sign up</a>
 				</div>	
 		</section>
 
 		<footer>
 			<div id="footerlink">
 			<!-- <div id="social"> -->
-				<a href="https://www.instagram.com" target="blank"><img src="images/instagram.png"></a>
-				<a href="#" target="blank"><img src="images/facebook.png"></a>
-				<a href="#" target="blank"><img src="images/pinterest.png"></a>	
+				<a href="https://www.instagram.com/jnuzzy" target="blank"><img src="images/instagram.png"></a>
+				<a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a>
+				<a href="https://au.pinterest.com/jessicanuzum" target="blank"><img src="images/pinterest.png"></a>	
 			</div>		
 			
 			<div id="footerlink">
-				<a href="#">contact us</a>
-				<a href="#">blog</a>
-				<a href="#">work with us</a>
+				<a href="about.html">contact us</a>
+				<a href="blog.html">blog</a>
+				<a href="about.html">work with us</a>
 			</div>
 
 			<p> For regular updates, photography and posts from around the world to stoke your wanderlust, follow us on social media.</p>			
@@ -104,5 +116,29 @@
 
 			<a href="#">Go to top</a>
 		</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 	</body>
 </html>

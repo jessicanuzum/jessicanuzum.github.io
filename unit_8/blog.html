@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>BLOG</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+		<div id="lander2">
+			<header>
+				<label for="toggle">Menu</label>
+            	<input type="checkbox" id="toggle">
+				<nav>
+					<!-- <a href="#" id=mobile>&#9776;</a> -->
+					<a href="index.html">home</a>
+					<a href="about.html">about</a>
+					<a href="blog.html">blog</a>
+					<div class="dropdown">
+					<button class="dropbtn"> Travel </button>
+					<!-- <a href="dropbtn"> Travel </button> -->
+					<div class="dropdown-content">
+					    <a href="#">England</a>
+					    <a href="#">France</a>
+					    <a href="#">Switzerland</a>
+					    <a href="#">Austria</a>
+					    <a href="#">USA</a>
+					    <a href="#">Australia</a>
+					  </div>
+					</div>
+
+					<a href="#subscribe">subscribe</a>
+				</nav>
+				
+
+				<h1>BLOG</h1>	
+
+			</header>
+		</div>
+
+		<main>
+			<h4 id="slogan"> Latest blog posts </h4>
+			<hr>	
+
+		</main>	
+		
+		<section id="blog">
+			<div id="post1"> 
+				<img src="images/blog1.jpg"alt="London" title="London">
+				<a href="#"><h5>Hidden secrets of Europe</h5></a>
+				<p> London, England's capital, set on the River Thames, is a 21st-century city with history. </p>
+			</div>
+			<div id="post2">
+				<img src="images/blog2.jpg"alt="Paris" title="Paris">
+				<a href="#"><h5>Top sights in Los Angeles</h5></a>
+				<p> Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. </p>
+			</div>
+			<div id="post3">
+				<img src="images/blog3.jpg"alt="New York" title="New York, Central Park">
+				<a href="#"><h5>Western Highlights Contiki</h5></a>
+				<p> Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites. </p>
+			</div> 
+			<div id="post4"> 
+				<img src="images/blog4.jpg"alt="London" title="London">
+				<a href="#"><h5>The windy city</h5></a>
+				<p> London, England's capital, set on the River Thames, is a 21st-century city with history stretching back to Roman times. </p>
+			</div>
+			<div id="post5">
+				<img src="images/blog5.jpg"alt="Paris" title="Paris">
+				<a href="#"><h5>10 things not to do in Paris</h5></a>
+				<p> Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. </p>
+			</div>
+			<div id="post6">
+				<img src="images/blog6.jpg"alt="New York" title="New York, Central Park">
+				<a href="#"><h5>Adventure in Interlaken, Switzerland</h5></a>
+				<p> Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites. </p>
+			</div> 
+		</section>
+			<hr>
+	
+			<section id="subscribe">
+				<h2>Subscribe</h2>
+				<p>Sign up with your email address below to keep updated with Where To Next news, updates, travel tips and inspiration.</p>
+				
+				<form id='form'>
+				  <input type="text" name="email address" placeholder="Email Address">> 
+				</form>
+
+				<div class=button>	
+						<a href ="signup" id="button">sign up</a>
+					</div>	
+			</section>
+			
+		<footer>
+			<div id="footerlink">
+			<!-- <div id="social"> -->
+				<a href="https://www.instagram.com/jnuzzy" target="blank"><img src="images/instagram.png"></a>
+				<a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a>
+				<a href="https://au.pinterest.com/jessicanuzum" target="blank"><img src="images/pinterest.png"></a>	
+			</div>		
+			
+			<div id="footerlink">
+				<a href="about.html">contact us</a>
+				<a href="blog.html">blog</a>
+				<a href="about.html">work with us</a>
+			</div>
+
+			<p> For regular updates, photography and posts from around the world to stoke your wanderlust, follow us on social media.</p>			
+				<p>Copyright: Where To Next 2016 | All rights reserved | wwww.wheretonext.com</p>
+
+			<a href="#">Go to top</a>
+		</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+	</body>
+</html>
