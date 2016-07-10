@@ -588,8 +588,14 @@ section#cities{
 	width:100%;
 	}
 
+	label{
+		font-size:1.25em;
+	}
+
 	#toggle:checked + nav a {
 		display: block;
+		font-size:1.15em;
+		padding:.25em;
 	}
 
 
@@ -597,6 +603,10 @@ section#cities{
 		display: block;
 		text-align: center;
 		margin:auto;
+	}
+
+	#lander{
+		height:575px;
 	}
 
 }
