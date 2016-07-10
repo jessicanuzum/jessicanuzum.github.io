@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>ABOUT</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+
+	<body>
+		
+		<div id="lander3">
+			<header>
+				<label for="toggle">Menu</label>
+            	<input type="checkbox" id="toggle">
+							<nav>
+					<!-- <a href="#" id=mobile>&#9776;</a> -->
+					<a href="index.html">home</a>
+					<a href="about.html">about</a>
+					<a href="blog.html">blog</a>
+					<div class="dropdown">
+					<a href="wheretonext.html">Travel</a>
+					<!-- <button class="dropbtn"> </button> -->
+					<div class="dropdown-content">
+					    <a href="wheretonext.html">England</a>
+					    <a href="wheretonext.html">France</a>
+					    <a href="wheretonext.html">Switzerland</a>
+					    <a href="wheretonext.html">Austria</a>
+					    <a href="wheretonext.html">USA</a>
+					    <a href="wheretonext.html">Australia</a>
+					</div>
+					</div>
+					<a href="#subscribe">subscribe</a>  
+					
+				</nav>
+				
+				<h1>ABOUT</h1>
+
+			</header>
+		</div>
+
+		<main>
+			<h4 id="slogan"> What is Where to Next? </h4>
+			<hr>	
+
+			<p>Where To Next? Is a travel inspiration site to help you find the perfect destination for your next adventure, whether travelling solo as a couple or a whole family, Where To Next? has all the information you'll need to plan your next trip.</p>
+
+			<h4> "You'll never know until you go"</h4>
+
+		<div>	
+			<div id="lander4">
+			<h6>contact us</h6>
+		</div>
+
+			<p>If you would like to join us on a journey around the world, then you can follow us on a variety of social media channels and see where we're going next.</p>
+
+			<p>We'd love for you to be a part of the adventure!
+			Want to drop us an email?</p> 
+
+			<p>Contact us at wheretonext@gmail.com</p>
+
+		</main>	
+
+			<hr>
+		<section id="subscribe">
+			<h2>Subscribe</h2>
+			<p>Sign up with your email address below to keep updated with Where To Next news, updates, travel tips and inspiration.</p>
+			
+			<form id='form'>
+			  <input type="text" name="email address" placeholder="Email Address">> 
+			</form>
+
+			<div class=button>	
+					<a href ="signup" id="button">sign up</a>
+				</div>	
+		</section>
+
+		<footer>
+			<div id="footerlink">
+			<!-- <div id="social"> -->
+				<a href="https://www.instagram.com/jnuzzy" target="blank"><img src="images/instagram.png"></a>
+				<a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a>
+				<a href="https://au.pinterest.com/jessicanuzum" target="blank"><img src="images/pinterest.png"></a>	
+			</div>		
+			
+			<div id="footerlink">
+				<a href="#">contact us</a>
+				<a href="blog.html">blog</a>
+				<a href="#">work with us</a>
+			</div>
+
+			<p> For regular updates, photography and posts from around the world to stoke your wanderlust, follow us on social media.</p>			
+				<p>Copyright: Where To Next 2016 | All rights reserved | wwww.wheretonext.com</p>
+
+			<a href="#">Go to top</a>
+		</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+	</body>
+
+
+	</html>

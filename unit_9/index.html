@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Where To Next?</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+	</head>
+
+	<body>
+		<div id="lander">
+			<header>
+				<label for="toggle">Menu</label>
+            	<input type="checkbox" id="toggle">
+				<nav>
+					<!-- <a href="#" id=mobile>&#9776;</a> -->
+					<a href="index.html">home</a>
+					<a href="about.html">about</a>
+					<a href="blog.html">blog</a>
+					<div class="dropdown">
+					<a href="wheretonext.html">Travel</a>
+					<!-- <button class="dropbtn"> </button> -->
+					<div class="dropdown-content">
+					    <a href="wheretonext.html">England</a>
+					    <a href="wheretonext.html">France</a>
+					    <a href="wheretonext.html">Switzerland</a>
+					    <a href="wheretonext.html">Austria</a>
+					    <a href="wheretonext.html">USA</a>
+					    <a href="wheretonext.html">Australia</a>
+					</div>
+					</div>
+					<a href="#subscribe">subscribe</a>  
+					
+				</nav>
+				
+
+				<h1>Where To Next?</h1>
+
+				<div class=button>	
+					<a href="wheretonext.html" id="button"="#">click here</a>
+				</div>		
+
+			</header>
+		</div>
+
+		<main>
+			<h4 id="slogan">Find the perfect destination for your next adventure </h4>
+			<hr>	
+
+			<p>Where To Next? Is a travel inspiration site to help you find the perfect destination for your next adventure, whether travelling solo as a couple or a whole family, Where To Next? has all the information you'll need to plan your next trip.</p>
+
+			<hr>	
+
+		</main>	
+		
+		<section id="cities">
+			<h2>Cities</h2>
+			<div id="london"> 
+				<img src="images/london.jpg"alt="London" title="London">
+				<a href="#"><h3>London</h3></a>
+				<p> London, England's capital, set on the River Thames, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic Big Ben clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
+			</div>
+			<div id="paris">
+				<img src="images/paris2.jpg"alt="Paris" title="Paris">
+				<a href="#"><h3>Paris</h3></a>
+				<p> Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its picturesque 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture, and designer boutiques along the Rue du Faubourg Saint-Honore.</p>
+			</div>
+			<div id="newyork">
+				<img src="images/centralpark.jpg"alt="New York" title="New York, Central Park">
+				<a href="#"><h3>New York</h3></a>
+				<p> Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites, New York City is a fast-paced, globally influential center of art, culture, fashion and finance. The city's 5 boroughs sit where the Hudson River meets the Atlantic Ocean, with the island borough of Manhattan at the Big Apple's core.</p>
+			</div> 
+		</section>
+			<hr>
+		<section>
+			<div class="latest">
+				<h2>latest adventure</h2>
+				<p> Our latest adventure was to Tropical North Queensland. Where we snorkeled the Great Barrier Reef, explored the Daintree Rainforest and soaked up the rays on Fitzroy Island. We drive from Townsville to Cairns and then up to Port Douglas and as far up to Cape Tribulation. <a href="blog.html"> Read more...</a></p>
+				<img src="images/tropicalnq.jpg"alt="tropicalnq" title="tropicalnq">
+			</div>	
+		</section>	
+
+		<section id="subscribe">
+			<h2>Subscribe</h2>
+			<p>Sign up with your email address below to keep updated with Where To Next news, updates, travel tips and inspiration.</p>
+			
+			<form id='form'>
+			  <input type="text" name="email address" placeholder="Email Address">> 
+			</form>
+
+			<div class=button>	
+					<a href ="signup" id="button">sign up</a>
+				</div>	
+		</section>
+
+		<footer>
+			<div id="footerlink">
+			<!-- <div id="social"> -->
+				<a href="https://www.instagram.com/jnuzzy" target="blank"><img src="images/instagram.png"></a>
+				<a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a>
+				<a href="https://au.pinterest.com/jessicanuzum" target="blank"><img src="images/pinterest.png"></a>	
+			</div>		
+			
+			<div id="footerlink">
+				<a href="about.html">contact us</a>
+				<a href="blog.html">blog</a>
+				<a href="about.html">work with us</a>
+			</div>
+
+			<p> For regular updates, photography and posts from around the world to stoke your wanderlust, follow us on social media.</p>			
+				<p>Copyright: Where To Next 2016 | All rights reserved | wwww.wheretonext.com</p>
+
+			<a href="#">Go to top</a>
+		</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+	</body>
+</html>

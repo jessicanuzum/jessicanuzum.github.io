@@ -36,6 +36,7 @@ h1{
 
 h2 + p{
 	margin-top: 20px;
+	/*color: #FFF;*/
 }
 
 
@@ -69,7 +70,7 @@ h4{
 	font-weight: 400;
 	font-size:1.8em;
 	letter-spacing: .15em;
-	margin:2em;
+	margin:1.5em;
 	text-transform: uppercase;
 }
 
@@ -81,6 +82,7 @@ h4 + hr{
 	margin: 2em auto;
 
 }
+
 
 h5{
 	padding: 20px;
@@ -131,6 +133,9 @@ nav a{
 nav a:hover{
 	color:  #5B96AD;
 	border-bottom: 2px solid;
+	/*color: #333338;;*/
+	
+}
 }
 
 nav a:active{
@@ -235,7 +240,7 @@ label{
 
 #blog div {
 	float:left;
-	width: 33.33%;
+	width: 33%;
 	padding: 2em;
 	text-align:left;
 	margin-bottom: 1em;
@@ -273,7 +278,7 @@ section#cities{
 	font-size: 1.15em;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 3em;
 	font-weight: 400;
 }
 
@@ -360,7 +365,8 @@ section#cities{
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #5B96AD;
+	color: none;
+   /* background-color: #5B96AD;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -370,7 +376,7 @@ section#cities{
     color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: .15em;
-	display: inline-block;
+	display: inline-block;*/
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -417,6 +423,17 @@ section#cities{
 
 @media only screen and (min-width: 1921px){
 	body{
+		font-size:1.5em;
+	}
+	#lander #lander2 #lander3 #lander5{
+		height:650px;
+	}
+
+	#lander4 {
+		height: 425px;
+	}
+
+	.dropbtn{
 		font-size:1.5em;
 	}
 	#mobilenavigation{
@@ -466,6 +483,7 @@ section#cities{
 	width: 50%;
 	padding: 2em;
 	text-align:left;
+	border-bottom: none;
 	}
 
 .dropbtn{
@@ -515,8 +533,14 @@ nav a:hover{
 		display:none;
 }
 	h1{
-		font-size: 2em;
+		font-size: 2.25em;
 		margin-top: 2em;
+	}
+
+	h6{
+		font-size: 2.25em;
+		margin: 1em;
+		margin: 1.5em;
 	}
 	.subscribe{
 		width: 90%;
@@ -527,6 +551,16 @@ nav a:hover{
 	}*/
 		label{
 		display: block;
+	}
+
+	#image{
+		width:100%;
+	}
+
+	#blog div {
+	padding: 2em;
+	text-align:left;
+	border-bottom: none;
 	}
 
 	#toggle:checked + nav a {

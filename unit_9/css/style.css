@@ -1,0 +1,574 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:600,400,300);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333338;
+	line-height: 1.3;
+	font-weight: 300;
+}
+header {
+
+	padding: .5em;
+	text-align: right;
+}
+
+section{
+	text-align: center;
+}
+h1{
+	color: #FFFFFF;
+	font-size: 3em;
+	text-align: center;
+	margin-top:3em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .25em;
+	padding: .5em;
+}
+
+h2 + p{
+	margin-top: 20px;
+	/*color: #FFF;*/
+}
+
+
+h2 {
+	color:#333338;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:2.15em;
+	letter-spacing: .25em;
+}
+
+
+h3{
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .25em;
+	font-size: 1.35em;
+	color: #333338;
+}
+
+h3:hover{
+	color:  #5B96AD;
+}
+
+h4{
+	color:#333338;
+	text-align: center;
+	font-weight: 400;
+	font-size:1.8em;
+	letter-spacing: .15em;
+	margin:1.5em;
+	text-transform: uppercase;
+}
+
+h4 + hr{
+	border: none;
+	height: 2px;
+	background-color: #222;
+	width: 10%;
+	margin: 2em auto;
+
+}
+
+
+h5{
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: .25em;
+	font-size: 1.10em;
+	color: #333338;
+	height: 100px;
+}
+
+h5:hover{
+	color:  #5B96AD;
+}
+
+
+h6{
+	color: #FFFFFF;
+	font-size: 3em;
+	text-align: center;
+	margin:2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .25em;
+	padding: .5em;
+}
+
+
+a {	
+	color: #666;
+	text-decoration: none;
+}
+
+nav{
+	font-size: 1.15em;
+	float:right;
+	margin-right: 1.5em;
+}
+nav a{ 
+	color: #FFFFFF;
+	padding: 0.5em 0em 0em 0em;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	display: inline-block;
+	margin: .75em;
+}
+nav a:hover{
+	color:  #5B96AD;
+	border-bottom: 2px solid;
+	/*color: #333338;;*/
+	
+}
+}
+
+nav a:active{
+	color:  #5B96AD;
+}
+
+hr + p{
+	margin: 2em auto;
+	text-align: center;
+	width: 75%;
+}
+
+#lander4 + p{
+	margin: 2em auto;
+	text-align: center;
+	width: 75%;
+}
+
+p + p{
+	margin: .25em auto;
+	text-align: center;
+	width: 75%;
+}
+
+img{
+	width: 100%;
+	padding-top: 1em;
+}
+
+main{
+	padding: 10px;
+}
+
+
+hr{
+	border: none;
+	height: 2px;
+	background-color: #E5E4E0;
+	width: 90%;
+	margin: 2em auto;
+
+}
+footer{
+	background-color: #333338;
+	text-align: center;
+	font-size: .8em;
+	color: #666;
+	padding:20px;
+	margin-top: 4em;
+}
+
+input{
+	border: none;
+	font-size: .8em;
+	outline: none;
+	width: 95%;
+}
+
+
+label{
+	color: #FFFFFF;
+	font-size: 1.15em;
+	padding: 0.5em 0em 0em 0em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .15em;
+	display: none;
+	margin: .75em;
+}
+
+
+#form{
+	width: 78%;
+	padding: 1em;
+	line-height: normal:;
+	outline: none;
+	display: inline-block;
+	text-align: start;
+	background-color: white;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	margin: 15px 15px;
+}
+
+#footerlink a{
+	font-family: 'Poppins',sans-serif;
+	display:inline-block;
+	outline: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	color:#FFF;
+	text-align: center;
+	padding: 1em;
+}
+
+#cities div {
+	float:left;
+	width: 33.33%;
+	padding: 2em;
+	text-align:left;
+}
+
+#blog div {
+	float:left;
+	width: 33%;
+	padding: 2em;
+	text-align:left;
+	margin-bottom: 1em;
+}
+
+section#blog{
+	max-width: 55em;
+	margin: auto;
+}
+
+section#cities{
+	max-width: 55em;
+	margin: auto;
+}
+
+.latest{
+	width: 78%;
+	display: inline-block;
+	margin: 20px;
+
+}
+
+#subscribe{
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	background-color: #5B96AD;
+	padding: 30px;
+	margin: 3em auto;
+	width: 75%;
+}
+
+#slogan{ 
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 3em;
+	font-weight: 400;
+}
+
+#image{
+	width: 60%;
+	display: inline-block;
+}
+
+#lander{
+	background: url(../images/newyork.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:525px;
+	padding:20px 0;
+}
+
+#lander2{
+	background: url(../images/interlaken.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:525px;
+	padding:20px 0;
+}
+
+#lander3{
+	background: url(../images/sanfran.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:525px;
+	padding:20px 0;
+}
+
+#lander4{
+	background: url(../images/interlaken2.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:325px;
+	padding:20px 0;
+	margin-bottom: 4em;
+}
+
+#lander5{
+	background: url(../images/hawaii.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height:525px;
+	padding:20px 0;
+}
+
+#button{
+	color: #FFF;
+	font-size: 1em;
+	font-weight: 400;
+	border: 2px solid white;
+	padding: 1em 1.5em;
+	text-transform: uppercase;
+	letter-spacing: .20em;
+	margin:auto;
+}
+
+.button{
+	text-align: center;
+	margin: 20px;
+}
+
+
+#button:hover{
+	color: #000;
+	background: #FFF;
+}
+
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear:  both;
+	height: 0; 
+	font-size: 0;
+}
+
+#toggle{
+	display: none;
+}
+
+#blog{
+	width:100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	color: none;
+   /* background-color: #5B96AD;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+    color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	display: inline-block;*/
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	font-size: .8em;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #666;
+    padding: .5em;
+    text-decoration: none;
+    display: block;
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+	border-bottom: none;
+}
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #f1f1f1}*/
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #5B96AD;
+    border: 2px solid #5B96AD;
+}
+
+@media only screen and (min-width: 1921px){
+	body{
+		font-size:1.5em;
+	}
+	#lander #lander2 #lander3 #lander5{
+		height:650px;
+	}
+
+	#lander4 {
+		height: 425px;
+	}
+
+	.dropbtn{
+		font-size:1.5em;
+	}
+	#mobilenavigation{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 1600px ){
+	#mobilenavigation{
+		display:none;
+	}
+
+@media only screen and (max-width: 815px ){
+	#blog div {
+	width: 50%;
+	padding: 2em;
+	text-align:left;
+	}
+}
+@media only screen and (max-width: 745px ){
+	#cities div {
+		margin:auto;
+		float:none;
+		width:80%;
+	}
+	#blog div {
+	width: 50%;
+	padding: 2em;
+	text-align:left;
+	}
+}
+	
+}
+@media only screen and (max-width: 768px ){
+	nav a{
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+
+	nav{ 
+	float:none; 
+	margin:auto;
+}
+
+#blog div {
+	width: 50%;
+	padding: 2em;
+	text-align:left;
+	border-bottom: none;
+	}
+
+.dropbtn{
+	display: block;
+	text-align: center;
+	margin:auto;
+}
+
+.dropdown {
+	display: block;
+	text-align: center;
+	margin:auto;
+}
+
+.dropdown-content a {
+	display:block;
+	text-align: center;
+	margin:auto;
+}
+
+nav a:hover{
+	border-bottom: none;
+}
+	h1{
+		font-size: 2.5em;
+		margin-top: 1em;
+	}
+	#cities div{
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 560px ){
+	nav a{
+
+		display:none;
+	}
+
+	.dropbtn{
+		display:none;
+	}
+
+	.dropdown-content a {
+		display:none;
+}
+	h1{
+		font-size: 2.25em;
+		margin-top: 2em;
+	}
+
+	h6{
+		font-size: 2.25em;
+		margin: 1em;
+		margin: 1.5em;
+	}
+	.subscribe{
+		width: 90%;
+	}/*
+		#mobile{
+		display: block;
+		float: right;
+	}*/
+		label{
+		display: block;
+	}
+
+	#image{
+		width:100%;
+	}
+
+	#blog div {
+	padding: 2em;
+	text-align:left;
+	border-bottom: none;
+	width:100%;
+	}
+
+	#toggle:checked + nav a {
+		display: block;
+	}
+
+
+	#toggle:checked > div{
+		display: block;
+		text-align: center;
+		margin:auto;
+	}
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Where to next?</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+
+	<body>
+		
+		<div id="lander5">
+			<header>
+				<label for="toggle">Menu</label>
+            	<input type="checkbox" id="toggle">
+				<nav>
+					<!-- <a href="#" id=mobile>&#9776;</a> -->
+					<a href="index.html">home</a>
+					<a href="about.html">about</a>
+					<a href="blog.html">blog</a>
+					<div class="dropdown">
+					<a href="wheretonext.html">Travel</a>
+					<!-- <button class="dropbtn"> </button> -->
+					<div class="dropdown-content">
+					    <a href="wheretonext.html">England</a>
+					    <a href="wheretonext.html">France</a>
+					    <a href="wheretonext.html">Switzerland</a>
+					    <a href="wheretonext.html">Austria</a>
+					    <a href="wheretonext.html">USA</a>
+					    <a href="wheretonext.html">Australia</a>
+					</div>
+					</div>
+					<a href="#subscribe">subscribe</a>  
+					
+				</nav>
+				
+				<h1> travel </h1>
+
+			</header>
+		</div>
+
+		<main>
+			<h4 id="slogan">next travel destination</h4>
+			<hr>	
+
+			<p>I want my next travel destination to be to Machu Picchu, Peru.</p>
+		</main>
+
+		<section>
+			<div class="latest">
+				<img id="image" src="images/machupicchu.jpg"alt="machupicchu" title="machupicchu">
+			</div>
+		</section>	
+
+		<section>
+			<h4 id="slogan">previous travel destinations</h4>
+			<hr>	
+
+			<h4 id="slogan">Europe</h4>
+			<ul>
+				<li> London, UK</li>
+				<li> Bath, UK</li>
+				<li> Stafford, UK</li>
+				<li> Paris, France</li>
+				<li> Interlaken, Switzerland</li>
+				<li> Lucerne, Switzerland</li>
+				<li> Innsbruck, Austria</li>
+				<li> Graz, Austria</li>
+				<li> Vienna, Austria</li>
+			</ul>
+			
+			<h4 id="slogan"> United States</h4>
+			<ul>
+				<li>Los Angeles, CA</li>
+				<li>San Diego, CA</li>
+				<li>Phoenix, AZ</li>
+				<li>Grand Canyon, AZ</li>
+				<li>Las vegas, NV</li>
+				<li>San Francisco, CA</li>
+				<li>New York, NY</li>
+				<li>Chicago, IL</li>
+				<li>Honolulu, HI</li>
+			</ul>	
+
+			<h4 id="slogan">Australia</h4>
+			<ul>
+				<li>Melbourne, VIC</li>
+				<li>Sydney, NSW</li>
+				<li>Perth, WA</li>
+				<li>Great Barrier Reef - Cairns & Port Douglas, QLD</li>
+				<li>Great Ocean Road, Geelong</li>
+				<li>Gold Coast,QLD</li>
+				<li>Grampians, VIC</li>
+				<li>Adelaide, SA</li>
+			</ul>	
+		</section>	
+
+		<hr>
+
+		<section id="subscribe">
+			<h2>Subscribe</h2>
+			<p>Sign up with your email address below to keep updated with Where To Next news, updates, travel tips and inspiration.</p>
+			
+			<form id='form'>
+			  <input type="text" name="email address" placeholder="Email Address"> 
+			</form>
+
+			<div class=button>	
+					<a href ="signup" id="button">sign up</a>
+				</div>	
+		</section>
+
+		<footer>
+			<div id="footerlink">
+			<!-- <div id="social"> -->
+				<a href="https://www.instagram.com/jnuzzy" target="blank"><img src="images/instagram.png"></a>
+				<a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a>
+				<a href="https://au.pinterest.com/jessicanuzum" target="blank"><img src="images/pinterest.png"></a>	
+			</div>		
+			
+			<div id="footerlink">
+				<a href="#">contact us</a>
+				<a href="blog.html">blog</a>
+				<a href="#">work with us</a>
+			</div>
+
+			<p> For regular updates, photography and posts from around the world to stoke your wanderlust, follow us on social media.</p>			
+				<p>Copyright: Where To Next 2016 | All rights reserved | wwww.wheretonext.com</p>
+
+			<a href="#">Go to top</a>
+		</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+	</body>
+
+
+	</html>
