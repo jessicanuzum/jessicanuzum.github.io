@@ -430,13 +430,13 @@ section#cities{
 	body{
 		font-size:1.5em;
 	}
-	#lander #lander2 #lander3 #lander5{
+/*	#lander #lander2 #lander3 #lander5{
 		height:650px;
 	}
 
 	#lander4 {
 		height: 425px;
-	}
+	}*/
 
 	.dropbtn{
 		font-size:1.5em;
