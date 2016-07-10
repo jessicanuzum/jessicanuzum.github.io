@@ -477,12 +477,19 @@ section#cities{
 		display: block;
 		text-align: center;
 		margin: auto;
+		font-size:1.15em;
+		padding:.5em;
+		font-weight: 400; 
 	}
 
 	nav{ 
 	float:none; 
 	margin:auto;
 }
+	#lander{
+		height:575px;
+		font-weight: 400; 
+	}
 
 	#blog div {
 		width: 50%;
@@ -596,6 +603,7 @@ section#cities{
 		display: block;
 		font-size:1.15em;
 		padding:.25em;
+		font-weight: 400; 
 	}
 
 
@@ -607,6 +615,7 @@ section#cities{
 
 	#lander{
 		height:575px;
+		font-weight: 400; 
 	}
 
 }
